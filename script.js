@@ -39,7 +39,7 @@ boxes.forEach((box) => {
 resetBtn.addEventListener("click", () => {
   boxes.forEach((box) => {
     box.innerText = "";
-    msgBox.innerText = "";
+    msgBox.innerText = " ";
     box.disabled = false;
     count = 0;
   });
