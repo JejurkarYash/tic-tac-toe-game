@@ -16,6 +16,7 @@ let winningIndex = [
   [1, 4, 7],
   [2, 5, 8],
 ];
+
 let count = 0;
 boxes.forEach((box) => {
   box.addEventListener("click", () => {
@@ -24,6 +25,7 @@ boxes.forEach((box) => {
       turnX = false;
       count++;
     } else {
+      box.style.color = "#613f75";
       box.innerText = "O";
       turnX = true;
       count++;
